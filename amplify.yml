@@ -4,7 +4,7 @@ frontend:
     preBuild:
       commands:
         - npm install -g n
-        - n 20.19.0
+        - n 22.14.0
         - node -v
         - npm ci
     build:
